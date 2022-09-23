@@ -1,0 +1,479 @@
+
+.home-container1{
+    height: 100vh;
+    width: 100%; 
+}
+.home-wrapper{
+    width: 100%;
+    height: 100vh;
+
+}
+.slick-list{
+       height: 100%;
+    width: 100%;
+
+
+}
+.slick-slide{
+position: relative;
+    /* width: 100%; */
+
+}
+.slick-arrow.slick-prev{
+    z-index: 1000;
+    
+    width: 100px;
+}
+.slick-arrow.slick-next{
+    z-index: 1000;
+    height: 100%;
+    right: 2%;
+}
+/* .slick-slider{
+    height: 390px;
+    width: 1596px;
+} */
+.slick-arrow.slick-next {
+ height: 10px;
+ z-index: 1000;
+ margin-right: 60px;
+}
+.slick-arrow.slick-next::before {
+
+}
+.slick-track{
+    width: 100%;
+}
+.slider-image-1{
+
+    background-image: url("../../asset/images/build.png");
+    background-size: cover ;
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+.slick-active{
+    /* padding-right: 50px; */
+   
+
+
+}
+.slick-dots{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.slick-dots li button::before {
+border: 1px solid #ffff;
+border-radius: 10px; 
+width: 10px;
+height: 10px;
+color: white;
+}
+
+
+.slick-dots li.slick-active button:before{
+    color: white;
+    background-color: #ffff;
+    width: 35px;
+    margin-right: 20px;
+    color: unset;
+
+}
+.slick-dots .slick-active{
+    margin-right: 20px;
+    
+}
+.slick-dots li button::before{
+    color: unset;
+}
+.slider-image-1-text{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: "Montserrat";
+    width: 765px;
+    height:100px;
+    align-items: center;
+    text-align: center;
+}
+.text-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    flex-direction: column;
+   
+}
+.slider-image-1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.slider-image-1-subtext {
+    font-family: "Montserrat";
+    font-size: 28px;
+    height: 10%;
+    width: 33%;
+    top: 50%;
+    left: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+}
+.under-slider{
+    position: absolute;
+    top: 70%;
+    height: 30%;  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.under-slider-bar{
+    display: flex;
+    background-color: #ffff;
+    justify-content: center;
+    height: 36vh;
+    width: 70%;
+    border-radius: 20px;
+        box-shadow: 1px 2px 5px #a9a8a8 ;
+
+}
+.under-slider-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-arrow-down{
+    display: flex;
+    flex-direction: column;
+}
+.under-slider-bar-first-row-1:hover{
+    color: white;
+    background-color: #0D323D;
+    transition: 0.5s ease;
+}
+.under-slider-bar-first-row-1:hover + .button-arrow-down-icon{
+    display: block;
+     position: absolute;
+    top: 33.9%;
+    left: 39.5%;
+    color: #0D323D;
+    transition: 0.5s ease;
+
+}
+.under-slider-bar-first-row-2:hover{
+    color: white;
+    background-color: #0D323D;
+    transition: 0.5s ease;
+
+}
+.under-slider-bar-first-row-2:hover + .button-arrow-down-icon-2{
+    display: block;
+     position: absolute;
+    top: 33.9%;
+    left: 49.5%;
+    color: #0D323D;
+    transition: 0.5s ease;
+
+}
+.button-arrow-down-icon{
+    display: none;
+    position: absolute;
+    top: 39%;
+    left: 39.5%;
+    transition: 0.5s ease;
+
+    color: #0D323D;
+}
+.button-arrow-down-icon-2{
+    display: none;
+    position: absolute;
+    top: 59%;
+    left: 39.5%;
+    color: #0D323D;
+    transition: 0.5s ease;
+    
+}
+.under-slider-bar-first-row{
+    display: flex;
+    width: 654px;
+    height: 70px;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.under-slider-bar-first-row-1{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s ease;
+
+}
+.under-slider-bar-first-row-2{
+    width: 150px;
+    height: 50px;
+    border-radius: 00px 0px 0px 0px;
+    border: 1px solid black;
+    display: flex;
+      justify-content: center;
+    align-items: center;
+text-align: center;
+    transition: 0.5s ease;
+
+}
+.under-slider-bar-first-row-3{
+    width: 150px;
+    height: 50px;
+    border-radius:0px 10px 10px 0px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.home-Input-Location input{
+    width:600px;
+    height: 50.31px;
+    border-radius: 10px;
+}
+.home-Input-Location ::placeholder{
+    font-size: 15px;
+    padding-left: 60.6px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+}
+.home-search{
+    display: flex;
+    font-family: "Segoe UI";
+    color: #0D323D;
+    align-items: center;
+    margin-top: 17px;
+
+}
+.home-search-icon{
+    display: flex;
+    position: absolute;
+    padding-left: 20px;
+
+}
+.dropdown-mui-container{
+    margin-top: 20px;
+      display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.dropdown-mui{
+ display: flex;
+ justify-content: space-evenly;
+ width: 60%;
+}
+.home-result{
+    display: flex;
+    margin-top:25px;    
+}
+
+.home-result-button button{
+    width: 220px;
+    height: 40px;
+    background-color: #0D323D;
+    color: white;
+    border: 1px solid #0D323D;
+    border-radius: 10px;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+@media only screen and (max-width: 768px){
+    .home-container1{
+        display: flex;
+        width:100.4vw;
+        height: 100vh;
+        position: absolute;
+        top:-10%;
+        /* background-color: red; */
+    
+      
+        
+    }
+    .slider-image-1{
+    
+    background-image: url("../../asset/images/build.png");
+    background-size: cover ;
+    width: 160vw;
+    height: 80vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+   
+    .slick-slide{
+        display: flex;
+        /* width:140.4vw; */
+
+        
+    }
+    .slick-slider{
+    height: 400px;
+    /* width:720.4px; */
+    position: absolute;
+    top: 10%;
+    
+}
+.slick-track::before{
+width: 30px;
+overflow: hidden;
+}
+.slick-slide-slick-active-slick-current {
+/* background-color: red; */
+/* width: 500px; */
+/* overflow: hidden; */
+
+}
+.text-slider{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.slider-image-1-text{
+    font-size: 30px;
+    width:50%;
+    
+
+}
+.slider-image-1-subtext{
+    display: none;
+
+
+
+}
+.under-slider{
+    
+    display: flex;
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    margin-bottom: 20%;
+    top: 55%;
+    
+}
+
+.under-slider-bar{
+    display: flex;
+    width: 80%;
+
+
+}
+.under-slider-bar-first-row{
+    width:300px;
+}
+.home-Input-Location{
+display: flex;
+width: 100%;    
+
+}
+.button-arrow-down{
+    width:50%;
+
+}
+
+.home-search{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.home-search-icon{
+    position: absolute;
+    display: flex;
+justify-content: left;
+left: 10%;
+
+}
+
+.slick-arrow.slick-next{
+    display: flex;
+    height: 50%;
+    margin-top: 20%;
+}
+.slick-arrow.slick-arrow.slick-prev{
+    display: flex;
+    height: 50%;
+    margin-top: 20%;
+ 
+
+}
+.dropdown-mui-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.dropdown-mui{
+        display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+
+}
+
+
+.slider-image-wraper{
+    background-image: url("../../asset/images/build.png");
+    background-position: center;
+    background-size: cover;
+    height:80vh ;
+    width: 100vw;
+    display: flex !important;
+    justify-content: center;
+    align-content: center;
+}
+
+.slick-slider.slick-initialized{
+    width: 100vw;
+}
+
+.slick-slide{
+    width: 100vw;
+}
+
+.text-slider-wraper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slider-image-1-text-wraper{
+    font-size: 55px;
+    width: 75vw;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.slider-image-1-subtext-wraper{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    width: 50vw;
+}

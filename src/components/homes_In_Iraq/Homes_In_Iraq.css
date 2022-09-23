@@ -1,0 +1,513 @@
+.iraq-container{
+
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.firts-slider{
+    display: flex;
+    flex-direction: row;
+height: 70vh;
+}
+.first-slider-row {
+    display: flex;
+    flex-direction: column;
+    height:20%;
+    width: 25%;
+    margin: 10px;
+}
+.first-slider-col {
+    display: flex;
+    flex-direction: column;
+    height:200px;
+    width: 25%;
+    margin: 10px;
+
+}
+.first-slider-row-text{
+position: absolute; 
+font-family: "Montserrat";
+font-size: 20px;
+color: white;
+padding-left: 30px;
+padding-top: 20px;
+
+
+}
+
+.iraq-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.iraq-up-top{
+ 
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.carousel.carousel-slider .control-arrow {
+    top: 0;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    margin-top: 0;
+    padding: 5px;
+}
+.carousel .control-prev.control-arrow {
+    left: 0;
+}
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+    transition: all .25s ease-in;
+    opacity: .4;
+    filter: alpha(opacity=40);
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    background: none;
+    border: 0;
+    font-size: 32px;
+
+    cursor: pointer;
+}
+.carousel .control-arrow {
+    outline: 0;
+    border: 0;
+    background: none;
+    top: 50%;
+    margin-top: -13px;
+    font-size: 18px;
+
+}
+.carousel * {
+    box-sizing: border-box;
+    
+}
+
+.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before {
+    margin: 0 5px;
+    }
+
+.dot{
+
+    /* background-color: red; */
+}
+.carousel-status{
+    display: none;
+}
+.first-slider-row-button{
+ position: absolute; 
+font-family: "Montserrat";
+font-size: 20px;
+color: white;
+padding-left: 30px;
+padding-top: 20px;
+top: 70%;
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.first-slider-row-button button{
+    opacity: 0.88;
+    background-color: white;
+    width:130px;
+    height: 30px;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    text-align: left;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: "meduim";
+}
+.first-slider-row-button div{
+    position: absolute;
+    color: black;
+    display: flex;
+    top: 60%;
+    width: 6.66pxx;
+    height: 10.66px;
+    float: right;
+    left: 90%;
+}
+
+.first-slider-row-button1{
+    position: absolute; 
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    top: 30%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.first-slider-row-button1 button{
+    opacity: 0.88;
+    background-color: white;
+    width:130px;
+    height: 30px;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    text-align: left;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: "meduim";
+}
+.first-slider-row-button1 div{
+    position: absolute;
+    color: black;
+    display: flex;
+    top: 60%;
+    width: 6.66pxx;
+    height: 10.66px;
+    float: right;
+    left: 90%;
+}
+.first-slider-row-button2{
+    position: absolute; 
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    top: 70%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.first-slider-row-button2 button{
+    opacity: 0.88;
+    background-color: white;
+    width:130px;
+    height: 30px;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    text-align: left;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: "meduim";
+}
+.first-slider-row-button2 div{
+    position: absolute;
+    color: black;
+    display: flex;
+    top: 60%;
+    width: 6.66pxx;
+    height: 10.66px;
+    float: right;
+    left: 90%;
+}
+.first-slider-row-button3{
+ position: absolute; 
+font-family: "Montserrat";
+font-size: 20px;
+color: white;
+padding-left: 30px;
+padding-top: 20px;
+top: 30%;
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.first-slider-row-button3 button{
+    opacity: 0.88;
+    background-color: white;
+    width:130px;
+    height: 30px;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    text-align: left;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: "meduim";
+}
+.first-slider-row-button3 div{
+    position: absolute;
+    color: black;
+    display: flex;
+    top: 60%;
+    width: 6.66pxx;
+    height: 10.66px;
+    float: right;
+    left: 90%;
+}
+
+.first-slider-row-button2{
+ position: absolute; 
+font-family: "Montserrat";
+font-size: 20px;
+color: white;
+padding-left: 30px;
+padding-top: 20px;
+top: 70%;
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.first-slider-row-button4 button{
+    opacity: 0.88;
+    background-color: white;
+    width:130px;
+    height: 30px;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    text-align: left;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: "meduim";
+}
+.first-slider-row-button4 div{
+    position: absolute;
+    color: black;
+    display: flex;
+    top: 60%;
+    width: 6.66pxx;
+    height: 10.66px;
+    float: right;
+    left: 90%;
+}
+.first-slider-row-button4{
+    position: absolute; 
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    top: 70%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.first-slider-row-button5 button{
+    opacity: 0.88;
+    background-color: white;
+    width:130px;
+    height: 30px;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    text-align: left;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: "meduim";
+}
+.first-slider-row-button5 div{
+    position: absolute;
+    color: black;
+    display: flex;
+    top: 60%;
+    width: 6.66pxx;
+    height: 10.66px;
+    float: right;
+    left: 90%;
+}
+.first-slider-row-button5{
+    position: absolute; 
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    top: 30%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 768px){
+    .iraq-container{
+    margin-top: -20.5%;
+
+    }
+
+    .firts-slider{
+
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .first-slider-col{
+        display: flex;
+        flex-direction: column;
+        height: 105%;
+        width: 80%;
+        
+        
+    }
+       .first-slider-row-button{
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: flex-start;
+        text-align:left;
+        margin-top: 7%;
+        margin-left: -4%;
+        
+
+
+    }
+    .first-slider-row-button button{
+        width: 100%;
+        display: flex;
+    }
+    .first-slider-col img{
+        height: 85%;
+    }
+
+    .first-slider-col .first-slider-row-button{
+        display: flex;
+        height: 10%;
+        width: 19%;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        
+        
+    }
+    .first-slider-row{
+        display: flex;
+        background-color: #fff;
+        height: 90%;
+        justify-content: space-around;
+        width: 70vw;
+
+    }
+    .first-slider-row-write{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+    }
+   
+     .first-slider-row .img-2{
+        height: 28vh;
+        align-items: center;
+        display: flex;
+        text-align: center;
+    }
+    .first-slider-row-button1{
+        width: 20%;
+        display: flex;
+
+        flex-direction: row;
+        justify-content: left;
+        align-items: flex-start;
+        text-align:left;
+        margin-left: -4%;
+        margin-top: 5.5%;
+
+
+    }
+    .first-slider-row-button1 button{
+        width: 100%;
+        display: flex;
+    }
+    .first-slider-row-text{
+        font-size: 15px;
+    }
+     .first-slider-row-button2{
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: flex-start;
+        text-align:left;
+        margin-left: -4%;
+        margin-top: 10%;
+        
+
+
+    }
+    .first-slider-row-button2 button{
+        width: 100%;
+        display: flex;
+    }
+    
+     .first-slider-row-button3{
+        width: 20%;
+        display: flex;
+
+        flex-direction: row;
+        justify-content: left;
+        align-items: flex-start;
+        text-align:left;
+        margin-left: -4%;
+        margin-top: 5.5%;
+
+
+
+    }
+    .first-slider-row-button3 button{
+        width: 100%;
+        display: flex;
+    }
+    
+     .first-slider-row-button4{
+        width: 20%;
+        display: flex;
+
+        flex-direction: row;
+        justify-content: left;
+        align-items: flex-start;
+        text-align:left;
+        margin-top: 5%;
+        margin-left: -3.8%;
+        margin-top: 10%;
+        align-items: center;
+
+
+
+    }
+    .first-slider-row-button4 button{
+        width: 100%;
+        display: flex;
+    }
+     .first-slider-row-button5{
+        width: 19%;
+        display: flex;
+
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        margin-top: 5%;
+        margin-left:-3%;
+
+
+    }
+    .first-slider-row-button5 button{
+        width: 100%;
+        display: flex;
+    }
+       .first-slider-row-button6{
+        width: 20%;
+        display: flex;
+
+        flex-direction: row;
+        justify-content: left;
+        align-items: flex-start;
+        text-align:left;
+        margin-top: 5%;
+        margin-left: -4%;
+
+
+    }
+    .first-slider-row-button6 button{
+        width: 100%;
+        display: flex;
+    }
+    
+}
+

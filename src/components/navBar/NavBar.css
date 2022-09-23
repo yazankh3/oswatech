@@ -1,0 +1,131 @@
+.nav-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 7%;
+    box-shadow: 5px 1px 5px #888888 ;
+    color: #0D323D;
+}
+.nav-wrap{
+display: flex;
+
+width: 100%;
+justify-content: space-between;
+}
+.nav-left{
+    display: flex;
+    justify-content: space-evenly;
+    width: 34%;
+    padding-left: 40px;
+    align-items: center;
+}
+.nav-left-link{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    align-items: center;
+}
+.border-left-colmn{
+    background-color: gray;
+    height: 30px;
+    width: 1px;
+}
+.nav-right{
+    display: flex;
+    width: 35%;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+
+}
+.nav-right-link{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.border-right-colmn{
+    background-color: gray;
+    height: 30px;
+    width: 1px;
+}
+.button-sign-up button{
+     border-radius: 10px 10px;
+    height: 35px;
+    width: 90px;
+    padding-top: 5px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #ffff;
+    border: 1px solid #0D323D;
+}
+.button-sign-up button:hover{
+cursor: pointer;
+
+}
+
+.a{
+    color: black;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.b{
+    color: black;
+ text-decoration: none;
+   
+}
+.c{
+    color: black;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.d{
+    color: black;
+ text-decoration: none;
+   
+}
+
+.click{
+    /* background-color: red; */
+}
+
+.drawer{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 0%;
+    }
+
+    .nav-wrap{
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+
+    }
+    .nav-left{
+        display: none;
+    }
+    .nav-right{
+        display: none;
+    }
+ 
+    .drawer{
+        display: block;
+        flex-direction: column;
+        /* width: 80vw; */
+        height: 100%;
+        z-index: 10000;
+        position: absolute;
+
+    }
+
+}

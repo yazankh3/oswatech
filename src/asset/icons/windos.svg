@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="187" height="43" viewBox="0 0 187 43">
+  <g id="Group_16220" data-name="Group 16220" transform="translate(-1548 -701)">
+    <rect id="Rectangle_6374" data-name="Rectangle 6374" width="43" height="43" rx="10" transform="translate(1548 701)" fill="#0d323d"/>
+    <text id="_3_Windows" data-name="3 Windows" transform="translate(1617 731)" fill="#515151" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">3 Windows</tspan></text>
+    <path id="window" d="M20.407,21.131V3.375H5.187V21.131H3.375v1.449H22.218V21.131ZM6.637,4.824h5.436V10.26H6.637Zm0,6.885h5.436v6.523H6.637Zm12.321,9.422H6.637V19.682H18.957Zm0-2.9H13.521V11.71h5.436Zm0-7.972H13.521V4.824h5.436Z" transform="translate(1556.703 709.522)" fill="#fff"/>
+  </g>
+</svg>

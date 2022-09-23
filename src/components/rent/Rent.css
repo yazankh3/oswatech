@@ -1,0 +1,456 @@
+.rent-container{
+    height: 100vh;
+    width: 100%;
+    line-height: 2em;
+}
+.rent-wrapper{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content:center ;
+
+margin-top: 20px;
+    flex-direction: column;
+}
+.rent-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #FAFAFA;
+    width: 87%;
+    align-items: top;
+    height: 8vh;
+    align-items: center;
+border-radius: 10px;
+margin-top: 20px;
+        box-shadow: 1px 2px 5px #a9a8a8 ;
+
+
+}
+.rent-location{
+    display: flex;
+    width: 30%;
+    height: 20%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.rent-location input{
+    width: 23%;
+    top: 20.9%;
+    border-radius: 10px;
+    height: 50px;
+    position: absolute;
+    margin-left: 10px;
+
+}
+.rent-location img{
+    position: absolute;
+    margin-top: 20px;
+
+    left: 29%;
+    top: 22%;
+    margin-top: 2px;
+}
+.clickDiv {
+    display: flex;
+    flex-direction: column;
+}
+.click-div-1{
+
+    display: flex;
+    flex-direction: row;
+}
+.clickDiv img{
+
+    position: absolute;
+    left: 34.8%;
+    top: 22.8%;
+    height: 18px;
+
+}
+.origin{
+    width:140px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px ;
+    font-family: "Montserrat";
+    font-size: 17px;
+    background-color: #fff;
+
+}
+.handleClick1 {
+    background-color: #fff;
+
+    width:140px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px ;
+    font-family: "Montserrat";
+    font-size: 17px;
+    font-weight: 600;
+
+}
+.clickDiv2 {
+
+    display: flex;
+    flex-direction: column;
+}
+.click-div-2{
+    display: flex;
+    flex-direction: row;
+}
+.clickDiv2 img{
+    position: absolute;
+    left: 44.5%;
+    top:22.8%;
+    height: 18px;
+
+}
+.origin2{
+    width:140px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px ;
+    font-family: "Montserrat";
+    font-size: 17px;
+    background-color: #fff;
+
+}
+.handleClick2 {
+    background-color: #fff;
+
+    width:140px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px ;
+    font-family: "Montserrat";
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+
+.clickDiv3 {
+    display: flex;
+    flex-direction: column;
+}
+.click-div-3{
+    display: flex;
+    flex-direction: row;
+}
+.clickDiv3 img{
+
+    position: absolute;
+    left: 53.5%;
+    top: 22.8%;
+    height: 18px;
+
+}
+.origin3{
+    width:140px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px ;
+    font-family: "Montserrat";
+    font-size: 17px;
+    background-color: #fff;
+
+}
+.handleClick3 {
+    background-color: #fff;
+
+    width:140px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px ;
+    font-family: "Montserrat";
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.clickDiv4 {
+    display: flex;
+    flex-direction: column;
+}
+.click-div-4{
+    display: flex;
+    flex-direction: row;
+}
+.clickDiv4 img{
+
+    position: absolute;
+    left: 62%;
+    top: 23%;
+    height: 18px;
+
+}
+.origin4{
+    width:160px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px ;
+    font-family: "Montserrat";
+    font-size: 17px;
+    background-color: #fff;
+
+}
+.handleClick4 {
+    background-color: #fff;
+
+    width:160px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px ;
+    font-family: "Montserrat";
+    font-size: 17px;
+    font-weight: 600;
+
+}
+.rent-search{
+    background-color: #0D323D;
+    width: 90px;
+    color: white;
+    border-radius: 10px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.clickDiv5 {
+    display: flex;
+    flex-direction: column;
+}
+.click-div-5{
+    display: flex;
+    flex-direction: row;
+}
+.clickDiv5 img{
+    position: absolute;
+    left: 37.5%;
+    top: 15.4%;
+    height: 18px;
+
+}
+.origin5{
+    width:110px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px ;
+    font-family: "Montserrat";
+    font-size: 17px;
+    background-color: #fff;
+
+}
+.handleClick5 {
+    background-color: #fff;
+
+    width:110px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px ;
+    font-family: "Montserrat";
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.rent-bot{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.rent-bot-left{
+    
+    width:45%;
+    height: 96.7vh;
+
+}
+
+.rent-bot-right{
+    /* height: 108vh; */
+    width: 55%;
+    background-color: #fff;
+    border:1px solid #fff;
+        box-shadow: 1px 2px 5px #a9a8a8 ;
+        
+
+}
+.rent-bot-right-bottom{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+
+
+}
+.rent-bot-right-bottom-houses{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rent-bot-right-bottom-houses2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+
+.rent-bot-right-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 86%;
+    align-items: center;
+}
+.rent-bot-right-top-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    float: left;
+    text-align: left;
+}
+.rent-bot-right-top-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+width: 22%;
+}
+.rent-bot-right-top-right-right{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    width: 60%;
+    
+}
+
+.rent-bot-right-bottom-houses1{
+    display: flex;
+    justify-content: space-around;
+    width: 100;
+    text-decoration: none;
+    color: #0D323D;
+}
+.rent-respo-bar{
+    display: flex;
+    background-color: gray;
+justify-content: space-around;
+}
+
+.rent-items-wraper{
+        display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px){
+    .rent-container{
+        display: flex;
+        height: 100%;
+    }
+ .rent-wrapper{
+    display: flex;
+    /* background-color: red; */
+   
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+ }  
+ .rent-top{
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+ } 
+
+
+
+
+
+
+.rent-bot{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+.rent-bot-left  {
+    display: flex;
+    flex: content;
+    /* background-color: blue; */
+    width: 100vw;
+}
+
+
+.rent-bot-right{
+    display: flex;
+    /* background-color: blue; */
+    width: 100%;
+    flex-direction: column;
+
+
+        
+}
+.house-rent{
+}
+
+}

@@ -1,0 +1,91 @@
+
+.login-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+        
+            
+}
+
+
+.login-wraper{
+    margin-top: 20px;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    padding: 20px;
+    min-width: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-title{
+font-weight: lighter;    font-size: 30px;
+line-height: 2em;
+}
+.border-row{
+  background-color: rgb(13, 35, 76);
+    border-radius: 20px;
+    width: 40px;
+    height: 2px;
+}
+
+
+.login-form{
+    width: 85%;
+    position: relative;
+}
+
+.form-wraper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 100%;
+}
+.input-container{
+    position: relative;    
+}
+
+.input-container input{
+    margin-top: 10px;
+    width: calc(100% - 8px);
+    background-color:inherit;
+    outline: none;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    padding: 8px 0 8px 8px;
+}
+
+
+.login-button{
+    display:flex;
+    width: 100%;
+
+}
+.login-button button{
+    width: 100%;
+    color: white;
+     background-color: #0D323D;
+    border: none;
+    outline: none;
+    padding:10px;
+    border-radius: 10px;
+
+}
+
+.form-remenber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+font-size: 14px;
+}
+
+.rember-me{
+    display: flex;
+    column-gap: 5px;
+}
+.create-account-span{
+    font-weight: 500;
+}
